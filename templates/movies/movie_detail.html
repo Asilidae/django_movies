@@ -12,24 +12,25 @@
 {% block movie %}
     <div class="left-ads-display col-lg-8">
         <div class="row">
-            <div class="desc1-left col-md-6">
-                <img src="{{ movie.poster.url }}" class="img-fluid" alt="">
-            </div>
-            <div class="desc1-right col-md-6 pl-lg-4">
-                <h3 class="editContent">
-                    {{ movie.title }}
-                </h3>
-                <h5 class="editContent"></h5>
-                <ul>
-                    <li style="list-style: none">
-                        <span><b>Год:</b> {{ movie.year }}</span></li>
-                    <li style="list-style: none">
-                        <span><b>Страна:</b> {{ movie.country }}</span>
-                    </li>
-                    <li style="list-style: none">
-                        <span><b>Слоган:</b> {{ movie.tagline }}</span>
-                    </li>
-                    <li style="list-style: none">
+            {% for movie in movie_list %}
+                <div class="desc1-left col-md-6">
+                    <img src="{{ movie.poster.url }}" class="img-fluid" alt="">
+                </div>
+                <div class="desc1-right col-md-6 pl-lg-4">
+                    <h3 class="editContent">
+                        {{ movie.title }}
+                    </h3>
+                    <h5 class="editContent"></h5>
+                    <ul>
+                        <li style="list-style: none">
+                            <span><b>Год:</b> {{ movie.year }}</span></li>
+                        <li style="list-style: none">
+                            <span><b>Страна:</b> {{ movie.country }}</span>
+                        </li>
+                        <li style="list-style: none">
+                            <span><b>Слоган:</b> {{ movie.tagline }}</span>
+                        </li>
+                        <li style="list-style: none">
                         <span><b>Режиссер:</b>
                             {% for director in movie.directors.all %}
                                 <a href="{{ director.get_absolute_url }}">
@@ -37,72 +38,73 @@
                                 </a>
                             {% endfor %}
                         </span>
-                    </li>
-                    <li style="list-style: none"><span><b>Актеры:</b>
-                        {% for actor in movie.actors.all %}
-                            <a href="{{ actor.get_absolute_url }}">
+                        </li>
+                        <li style="list-style: none"><span><b>Актеры:</b>
+                            {% for actor in movie.actors.all %}
+                                <a href="{{ actor.get_absolute_url }}">
                                     {{ actor.name }}
                             </a>
-                        {% endfor %}
+                            {% endfor %}
                                 </span>
-                    </li>
-                    <li style="list-style: none"><span><b>Жанр:</b>
-                        {% for genre in movie.genres.all %}
-                            {{ genre.name }}
-                        {% endfor %}
+                        </li>
+                        <li style="list-style: none"><span><b>Жанр:</b>
+                            {% for genre in movie.genres.all %}
+                                {{ genre.name }}
+                            {% endfor %}
                                     </span>
-                    </li>
-                    <li style="list-style: none">
-                        <span><b>Премьера в мире:</b> {{ movie.world_premiere }}</span>
-                    </li>
-                    <li style="list-style: none">
-                        <span><b>Бюджет:</b> ${{ movie.budget }}</span></li>
-                    <li style="list-style: none">
-                        <span><b>Сборы в США:</b> ${{ movie.fees_in_usa }}</span></li>
-                    <li style="list-style: none">
-                        <span><b>Сборы в мире:</b> ${{ movie.fess_in_world }}</span>
-                    </li>
-                    <li style="list-style: none">
-                        <a href="#"><b>Рейтинг:</b>
-                            <span class="fa fa-star" aria-hidden="true"
-                            ></span>
-                            <span class="fa fa-star" aria-hidden="true"
-                            ></span>
-                            <span class="fa fa-star" aria-hidden="true"
-                            ></span>
-                            <span class="fa fa-star" aria-hidden="true"
-                            ></span>
-                            <span class="fa fa-star" aria-hidden="true"
-                            ></span>
-                            <span class="editContent"
-                            >5.0</span>
-                        </a>
-                    </li>
-                    <div class="share-desc">
-                        <div class="share">
-                            <h4 class="editContent">
-                                Share:</h4>
-                            <ul class="w3layouts_social_list list-unstyled">
-                                <li>
-                                    <a href="#" class="w3pvt_facebook editContent">
-                                        <span class="fa fa-facebook-f"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="w3pvt_twitter editContent">
-                                        <span class="fa fa-twitter"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="w3pvt_dribble editContent">
-                                        <span class="fa fa-dribbble"></span>
-                                    </a>
-                                </li>
-                            </ul>
+                        </li>
+                        <li style="list-style: none">
+                            <span><b>Премьера в мире:</b> {{ movie.world_premiere }}</span>
+                        </li>
+                        <li style="list-style: none">
+                            <span><b>Бюджет:</b> ${{ movie.budget }}</span></li>
+                        <li style="list-style: none">
+                            <span><b>Сборы в США:</b> ${{ movie.fees_in_usa }}</span></li>
+                        <li style="list-style: none">
+                            <span><b>Сборы в мире:</b> ${{ movie.fess_in_world }}</span>
+                        </li>
+                        <li style="list-style: none">
+                            <a href="#"><b>Рейтинг:</b>
+                                <span class="fa fa-star" aria-hidden="true"
+                                ></span>
+                                <span class="fa fa-star" aria-hidden="true"
+                                ></span>
+                                <span class="fa fa-star" aria-hidden="true"
+                                ></span>
+                                <span class="fa fa-star" aria-hidden="true"
+                                ></span>
+                                <span class="fa fa-star" aria-hidden="true"
+                                ></span>
+                                <span class="editContent"
+                                >5.0</span>
+                            </a>
+                        </li>
+                        <div class="share-desc">
+                            <div class="share">
+                                <h4 class="editContent">
+                                    Share:</h4>
+                                <ul class="w3layouts_social_list list-unstyled">
+                                    <li>
+                                        <a href="#" class="w3pvt_facebook editContent">
+                                            <span class="fa fa-facebook-f"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="w3pvt_twitter editContent">
+                                            <span class="fa fa-twitter"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="w3pvt_dribble editContent">
+                                            <span class="fa fa-dribbble"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="clearfix"></div>
-                    </div>
-            </div>
+                </div>
+            {% endfor %}
         </div>
         <div class="row sub-para-w3layouts mt-5">
 
