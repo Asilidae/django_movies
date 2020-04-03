@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97b9564c-36ef-4575-85b6-6d76b6ed935f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movies/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templatetags/movie_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/movies/tags/last_movie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/movies/actor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templatetags/movie_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templatetags/movie_tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/include/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies/movie_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies/tags/last_movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies/tags/last_movie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1585687001509" duration="471000" />
       <workItem from="1585768760146" duration="9227000" />
       <workItem from="1585876393405" duration="4829000" />
-      <workItem from="1585937154656" duration="2890000" />
+      <workItem from="1585937154656" duration="6794000" />
     </task>
     <servers />
   </component>
