@@ -4,10 +4,7 @@
     <list default="true" id="97b9564c-36ef-4575-85b6-6d76b6ed935f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_movies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movies/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movies/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/movies/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies/movie_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <workItem from="1585602021901" duration="3176000" />
       <workItem from="1585687001509" duration="471000" />
       <workItem from="1585768760146" duration="9227000" />
-      <workItem from="1585876393405" duration="2385000" />
+      <workItem from="1585876393405" duration="3523000" />
     </task>
     <servers />
   </component>
