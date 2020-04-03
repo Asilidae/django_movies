@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="97b9564c-36ef-4575-85b6-6d76b6ed935f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_movies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movies/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movies/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies/movie_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\repository_clone\django_movies\static\ckeditor\ckeditor\plugins" />
+      <recent name="D:\repository_clone\django_movies\static\ckeditor" />
+      <recent name="D:\repository_clone\django_movies\static\youtube" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="django_movies" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_movies" />
@@ -99,7 +108,8 @@
       <workItem from="1585524628308" duration="6853000" />
       <workItem from="1585602021901" duration="3176000" />
       <workItem from="1585687001509" duration="471000" />
-      <workItem from="1585768760146" duration="9062000" />
+      <workItem from="1585768760146" duration="9227000" />
+      <workItem from="1585876393405" duration="2385000" />
     </task>
     <servers />
   </component>
@@ -119,9 +129,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585772807768" />
-    <state x="444" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1585769183951">
+    <state x="444" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1585876394809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="444" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585769183951" />
+    <state x="444" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585876394809" />
   </component>
 </project>
